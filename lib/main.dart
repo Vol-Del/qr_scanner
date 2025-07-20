@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'home_screen.dart';
+
 void main () {
  runApp(qr_scanner());
 }
@@ -21,6 +23,7 @@ class qr_scanner extends StatelessWidget {
             seedColor: Colors.indigo
         ),
       ),
+      home: HomeScreen(),
     );
   }
 }
